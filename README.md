@@ -12,20 +12,20 @@ npm install
 ```
 npm run build
 ```
-###运行login模块页面
+### 运行login模块页面
 ```
 "run:login": "cross-env NODE_ENV=development MODULE_NAME=login npm run serve
 ```
-###构建login模块页面
+### 构建login模块页面
 ```
 "build:login": "cross-env NODE_ENV=production MODULE_NAME=login npm run build
 ```
-###运行整个项目
+### 运行整个项目
 ```
 npm run serve
 "run:all":"cross-env NODE_ENV=development MODULE_NAME=all npm run serve
 ```
-###运行login模块页面
+### 运行login模块页面
 ```
 "build:all": "cross-env NODE_ENV=production MODULE_NAME=all npm run build"
 ```
