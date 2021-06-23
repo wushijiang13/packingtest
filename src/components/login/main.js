@@ -12,9 +12,12 @@ console.log("当前运行项目:"+process.env.MODULE_NAME);
 let router = new VueRouter({
     routes:loginRoutes,
 })
+
+
 Vue.use(VueRouter);
 
 new Vue({
     router,
     render: h => h(App),
 }).$mount('#app')
+

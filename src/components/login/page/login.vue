@@ -1,6 +1,7 @@
 <template>
     <div>
-      这里是登陆
+      <p>这里是登陆</p>
+      <button @click="()=>{this.$router.push('/test')}">前往测试</button>
     </div>
 </template>
 
