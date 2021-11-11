@@ -23,7 +23,6 @@ npm run build
 ```
 ### 运行整个项目
 ```
-npm run serve
 "run:all":"cross-env NODE_ENV=development MODULE_NAME=all npm run serve
 ```
 ### 运行login模块页面
